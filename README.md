@@ -167,13 +167,16 @@ Markdown是一种很简单的标记语言，它有很多优点，编写简单，
  
 > 结果展示:
 
-[jiang_xinxing博客](http://blog.csdn.net/jiang_xinxing)
-[搜米域名网站源码](https://github.com/guoshijiang/soumi_yuming "搜米域名网站源码")
+>>[jiang_xinxing博客](http://blog.csdn.net/jiang_xinxing)
+  [搜米域名网站源码](https://github.com/guoshijiang/soumi_yuming "搜米域名网站源码")
 
 >> ###### 6.1.2 参考式
     代码：
-    网站[github.com][1]、[soumi_yuming][2]以及[我的博客][3]
-    [plkingdom项目源码][2]是一个不错的[网站][]。
+    网站[github.com][1]、
+    [soumi_yuming][2]
+    [我的博客][3]
+    [plkingdom项目源码][2]
+    [网站][]。
     [1]:https://github.com/guoshijiang/Markdown-Study
     [2]:https://github.com/guoshijiang/plkingdom "plkingdom"
     [3]:http://blog.csdn.net/jiang_xinxing "jiang_xinxing博客"
@@ -181,12 +184,15 @@ Markdown是一种很简单的标记语言，它有很多优点，编写简单，
     
 > 结果展示:
 
-网站[github.com][1]、[soumi_yuming][2]以及[我的博客][3]
-[plkingdom项目源码][2]是一个不错的[网站][]。
-[1]:https://github.com/guoshijiang/Markdown-Study
-[2]:https://github.com/guoshijiang/plkingdom "plkingdom"
-[3]:http://blog.csdn.net/jiang_xinxing "jiang_xinxing博客"
-[网站]:https://github.com/guoshijiang/soumi_yuming
+>>网站[github.com][1]
+  [soumi_yuming][2] 
+  [我的博客][3]
+  [plkingdom项目源码][2]
+  [网站][]。
+>>[1]:https://github.com/guoshijiang/Markdown-Study
+  [2]:https://github.com/guoshijiang/plkingdom "plkingdom"
+  [3]:http://blog.csdn.net/jiang_xinxing "jiang_xinxing博客"
+  [网站]:https://github.com/guoshijiang/soumi_yuming
 
 >> ###### 6.1.3 自动链接
     代码：
@@ -195,7 +201,7 @@ Markdown是一种很简单的标记语言，它有很多优点，编写简单，
     
 > 结果展示:
 
-<http://blog.csdn.net/jiang_xinxing/>
-<https://github.com/guoshijiang/Markdown-Study>
+>><http://blog.csdn.net/jiang_xinxing/>
+  <https://github.com/guoshijiang/Markdown-Study>
 
 
