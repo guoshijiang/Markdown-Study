@@ -149,14 +149,36 @@ Markdown是一种很简单的标记语言，它有很多优点，编写简单，
 |######         |H6|
 
 ## 6. 锚点和超链接
-#### 6.1.锚点
+> #### 6.1.锚点
     代码：
     ## 1.概述{#introduction}
     跳转到[概述](#introduction)
     
 > 结果展示: 
 
->>>## 1.概述{#introduction}
-   跳转到 [概述](#introduction)
+>>跳转到 [概述](#introduction)
+
+> #### 6.1.超链接
+>> ###### 6.1.1 行内式
+    
+    代码：
+    [梵居闹市](http://blog.leanote.com/freewalk)
+    [梵居闹市](http://blog.leanote.com/freewalk "梵居闹市")
+
+>> ###### 6.1.2 参考式
+    代码：
+    我经常去的几个网站[Google][1]、[Leanote][2]以及[自己的博客][3]
+    [Leanote 笔记][2]是一个不错的[网站][]。
+    [1]:http://www.google.com "Google"
+    [2]:http://www.leanote.com "Leanote"
+    [3]:http://http://blog.leanote.com/freewalk "梵居闹市"
+    [网站]:http://http://blog.leanote.com/freewalk
+
+>> ###### 6.1.3 自动链接
+    代码：
+    <http://example.com/>
+    <address@example.com>
+
+
 
 
