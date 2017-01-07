@@ -186,12 +186,19 @@ Markdown是一种很简单的标记语言，它有很多优点，编写简单，
 > 结果展示:
 
   [Markdown-Study][1]
+  
   [plkingdom][2] 
+  
   [jiang_xinxing博客][3]
+  
   [soumi_yuming][4]。
+  
   [1]:https://github.com/guoshijiang/Markdown-Study "Markdown-Study"
+  
   [2]:https://github.com/guoshijiang/plkingdom "plkingdom"
+  
   [3]:http://blog.csdn.net/jiang_xinxing "jiang_xinxing博客"
+  
   [4]:https://github.com/guoshijiang/soumi_yuming
 
 >> ###### 6.1.3 自动链接
@@ -202,6 +209,7 @@ Markdown是一种很简单的标记语言，它有很多优点，编写简单，
 > 结果展示:
 
   <http://blog.csdn.net/jiang_xinxing/>
+  
   <https://github.com/guoshijiang/Markdown-Study>
 
 
