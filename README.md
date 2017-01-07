@@ -211,5 +211,31 @@ Markdown是一种很简单的标记语言，它有很多优点，编写简单，
   <http://blog.csdn.net/jiang_xinxing/>
   
   <https://github.com/guoshijiang/Markdown-Study>
+  
+## 6.流程图
+    
+    代码：
+    flow
+    st=>start: Start:>https://www.zybuluo.com
+    io=>inputoutput: verification
+    op=>operation: Your Operation
+    cond=>condition: Yes or No?
+    sub=>subroutine: Your Subroutine
+    e=>end
+    st->io->op->cond
+    cond(yes)->e
+    cond(no)->sub->io
+    
+> 结果展示:
 
+flow
+st=>start: Start:>https://www.zybuluo.com
+io=>inputoutput: verification
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+sub=>subroutine: Your Subroutine
+e=>end
+st->io->op->cond
+cond(yes)->e
+cond(no)->sub->io
 
