@@ -225,17 +225,18 @@ Markdown是一种很简单的标记语言，它有很多优点，编写简单，
     st->io->op->cond
     cond(yes)->e
     cond(no)->sub->io
+
+## 6.分割线
     
+    代码
+    * * *
+    ***
+    *****
+    - - -
+    ---------------------------------------
 > 结果展示:
-
-flow
-st=>start: Start:>https://www.zybuluo.com
-io=>inputoutput: verification
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-sub=>subroutine: Your Subroutine
-e=>end
-st->io->op->cond
-cond(yes)->e
-cond(no)->sub->io
-
+ * * *
+ ***
+ *****
+ - - -
+ ---------------------------------------
