@@ -376,4 +376,22 @@ C语言里的函数 `scanf()` 怎么使用？
 [flower]:http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg  "美丽花儿"
 
 
+## 11. 内容目录
+
+在段落中填写 [TOC] 以显示全文内容的目录结构。
+
+## 12. 注脚
+    
+    代码：
+    使用 Markdown[^1]可以效率的书写文档, 直接转换成 HTML[^2], 你可以使用 Leanote[^Le] 编辑器进行书写。
+    [^1]:Markdown是一种纯文本标记语言
+    [^2]:HyperText Markup Language 超文本标记语言
+    [^Le]:开源笔记平台，支持Markdown和笔记直接发为博文
+
+结果展示：
+[^1]:Markdown是一种纯文本标记语言
+[^2]:HyperText Markup Language 超文本标记语言
+[^Le]:开源笔记平台，支持Markdown和笔记直接发为博文
+
+
 
