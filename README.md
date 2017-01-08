@@ -212,7 +212,7 @@ Markdown是一种很简单的标记语言，它有很多优点，编写简单，
   
   <https://github.com/guoshijiang/Markdown-Study>
   
-## 6.流程图
+## 7.流程图
     
     代码：
     flow
@@ -226,7 +226,7 @@ Markdown是一种很简单的标记语言，它有很多优点，编写简单，
     cond(yes)->e
     cond(no)->sub->io
 
-## 6.分割线
+## 8.分割线
     
     代码
     * * *
@@ -240,3 +240,140 @@ Markdown是一种很简单的标记语言，它有很多优点，编写简单，
  *****
  - - -
  ---------------------------------------
+ 
+## 9.代码
+
+> 对于程序员来说这个功能是必不可少的，插入程序代码的方式有两种，一种是利用缩进(Tab), 另一种是利用"ESC键下面的"`code`"键"。
+
+>> 语法说明：
+   插入行内代码，即插入一个单词或者一句代码的情况，使用`code`这样的形式插入。
+   插入多行代码，可以使用缩进或者“` code “`,具体看示例。
+
+注意： 缩进式插入前方必须有空行
+> #### 9.1. 行内式
+
+    代码：
+    C语言里的函数 `scanf()` 怎么使用？
+
+结果展示：
+
+C语言里的函数 `scanf()` 怎么使用？
+
+> #### 9.2. 缩进式多行代码
+
+>> 缩进 4 个空格或是 1 个制表符
+
+   一个代码区块会一直持续到没有缩进的那一行（或是文件结尾）。
+
+       代码：
+        #include <stdio.h>
+        int main(void)
+        {
+            printf("Hello world\n");
+        }
+
+结果展示：
+
+    #include <stdio.h>
+    int main(void)
+    {
+        printf("Hello world\n");
+    }
+
+> #### 9.3. 用六个`s`包裹多行代码
+
+代码：
+
+    ```
+    #include <stdio.h>
+    int main(void)
+    {
+        printf("Hello world\n");
+    }
+    、、、
+
+结果展示：
+
+        #include <stdio.h>
+        int main(void)
+        {
+            printf("Hello world\n");
+        }
+
+> #### 9.4. HTML 原始码
+
+在代码区块里面， & 、 < 和 > 会自动转成 HTML 实体，这样的方式让你非常容易使用 Markdown 插入范例用的 HTML 原始码，只需要复制贴上，剩下的 Markdown 都会帮你处理，例如：
+
+代码：
+
+第一个例子：
+
+    <div class="footer">
+       © 2004 Foo Corporation
+    </div>
+
+结果展示：
+ <div class="footer">
+    © 2004 Foo Corporation
+ </div>
+ 
+第二个例子：
+
+    <table>
+        <tr>
+            <th rowspan="2">值班人员</th>
+            <th>星期一</th>
+            <th>星期二</th>
+            <th>星期三</th>
+        </tr>
+        <tr>
+            <td>李强</td>
+            <td>张明</td>
+            <td>王平</td>
+        </tr>
+    </table>
+    
+结果展示：
+ <table>
+     <tr>
+            <th rowspan="2">值班人员</th>
+            <th>星期一</th>
+            <th>星期二</th>
+            <th>星期三</th>
+     </tr>
+     <tr>
+            <td>李强</td>
+            <td>张明</td>
+            <td>王平</td>
+    </tr>
+</table>
+
+## 10. 插入图像
+
+> #### 10.1. 行内式
+
+语法说明：![图片Alt](图片地址 “图片Title”)
+
+代码：
+
+    美丽花儿： 
+    ![美丽花儿](http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg "美丽花儿")
+
+结果展示：
+
+美丽花儿： 
+    ![美丽花儿](http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg "美丽花儿")
+
+> #### 10.2. 参考式
+    代码：
+    美丽花儿：
+    ![美丽花儿][flower]
+    [flower]:http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg  "美丽花儿"
+
+结果展示：
+美丽花儿：
+![美丽花儿][flower]
+[flower]:http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg  "美丽花儿"
+
+
+
