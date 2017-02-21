@@ -356,13 +356,13 @@ C语言里的函数 `scanf()` 怎么使用？
 
 代码：
 
-    美丽花儿： 
-    ![美丽花儿](http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg "美丽花儿")
+    图片1： 
+    ![图片1](http://img.blog.csdn.net/20170117175958468?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvamlhbmdfeGlueGluZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast "图片1")
 
 结果展示：
 
-美丽花儿： 
-    ![美丽花儿](http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg "美丽花儿")
+图片1： 
+    ![图片1](http://img.blog.csdn.net/20170117175958468?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvamlhbmdfeGlueGluZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast "图片1")
 
 > #### 10.2. 参考式
     代码：
